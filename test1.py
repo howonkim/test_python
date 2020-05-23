@@ -1,6 +1,6 @@
 def binary_search(a, val):
     start = 0
-    end = len(a)- 1 
+    end = len(a)- 2 
 
     print ("start", start, "end", end)
     while start <= end:
