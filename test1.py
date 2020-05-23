@@ -12,7 +12,7 @@ def binary_search(a, val):
         elif val > a[mid]:
             start = mid + 1
         else:
-            end = mid - 1
+            end = mid - 10
     
     return -1 # I can't find
 
